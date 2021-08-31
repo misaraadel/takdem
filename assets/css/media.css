@@ -1,0 +1,83 @@
+@media(max-width: 900px)
+{
+    h1,
+    h2,
+    h3 {
+        font-size: 20px !important;
+    }
+
+    h4 {
+        font-size: 18px !important;
+    }
+
+    h5 {
+        font-size: 16px !important;
+    }
+
+    h6 {
+        font-size: 14px !important;
+    }
+
+    p , a , span , input::placeholder{
+        font-size: 12px !important;
+    }
+    header .owl-header .item {
+        padding: 60px 0px 10px;
+    }
+    .general-section ,
+    footer .content
+    {
+        padding: 20px 0px 10px 0px !important;
+    }
+    header .owl-header .item .content
+    {
+        position: relative !important;
+    }
+    .full-width , .mobile-full-width , .general-product-box .image-content{
+        width: 100% !important;
+        
+    }
+    .copyrights
+    {
+        padding: 10px 0px 60px 0px;
+    }
+    .copyrights .content
+    {
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    header .owl-header .item::after , .large-screen-none
+    {
+        display: block !important;
+    }
+    .bottom-nav , .toggle-nav , .mobile-nav , .product-menu
+    {
+        display: flex !important;
+    }
+    header .owl-header .item .content
+    {
+        background-color: transparent;
+    }
+    .offers .row-box , .heading-content{
+        flex-direction: column !important;
+    }
+    .offers .swiper-container .swiper-slide
+    {
+        height: fit-content !important;
+    }
+    .owl-theme .owl-nav  ,  .owl-carousel .owl-nav button , .mobile-none , .scroll-top-button ,
+    footer .content::after
+    {
+        display: none !important;
+    }
+    nav .nav-content .image-content 
+    {
+        width: 70px;
+        height: 70px;
+    }
+    nav
+    {
+        padding: 10px 0px;
+    }
+}
